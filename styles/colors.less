@@ -1,9 +1,7 @@
-
 // Config -----------------------------------
 @syntax-hue:          230;
 @syntax-saturation:    1%;
 @syntax-brightness:   98%;
-
 
 // Monochrome -----------------------------------
 @mono-1: hsl(@syntax-hue, 8%, 24%);
@@ -22,40 +20,40 @@
 @hue-6:   hsl(41, 99%, 30%); // <-orange 1
 @hue-6-2: hsl(41, 99%, 38%); // <-orange 2
 
-
 // Base colors -----------------------------------
 @syntax-fg:     @mono-1;
-@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-bg:     #D7DEE0;
+//@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
 @syntax-gutter: darken(@syntax-bg, 36%);
 @syntax-guide:  fade(@syntax-fg, 20%);
 @syntax-accent: hsl(@syntax-hue, 100%, 66% );
 
 //SkriptLight: Colors
-@event: #000080;
-@condition: #6090F0;
-@effect: #FF4000;
-@expression: #6090F0;
-@else: #000080;
-@types: #A0B0E0;
+@event: #0080FF;
+@condition: #8080FF;
+@effect: #DB2D4A;
+@expression: #8080FF;
+@else: #5151FF;
+@types: #0A888A;
 
-@command-types: #6090F0;
-@player-types: #A0B0E0;
-@entity-types: #A0B0E0;
-@potion-types: #A0B0E0;
-@enchantment-types: #A0B0E0;
-@color-types: #A0B0E0;
-@item-types: #A0B0E0;
-@loop-types: #A0B0E0;
-@event-types: #A0B0E0;
-@direction-types: #FF00E0;
-@timespan-types: #008000;
+@command-types: #8080FF;
+@player-types: #0A888A;
+@entity-types: #E080D5;
+@potion-types: #0A888A;
+@enchantment-types: #0A888A;
+@color-types: #0A888A;
+@item-types: #0A888A;
+@loop-types: #0A888A;
+@event-types: #0A888A;
+@direction-types: #FF0080;
+@timespan-types: #2ea74e;
 
-@text: #D08040;
-@number: #008000;
-@option: #B02020;
-@var: #008080;
-@tempvar: #606860;
-@exprwrap: #4080B0;
+@text: #ACB800;
+@number: #2ea74e;
+@option: #F75C68;
+@var: #245882;
+@tempvar: #969696;
+@exprwrap: #52A9B3;
 @comment-hash: @mono-3;
 @comment-mark: #FF0000;
 
